@@ -10,7 +10,7 @@ public class PlayerDie : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("EnemyCollider"))
+        if (other.CompareTag("Enemy"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
