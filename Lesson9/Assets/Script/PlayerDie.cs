@@ -12,7 +12,11 @@ public class PlayerDie : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            HealthControl.health--;
+            if (HealthControl.health == 0)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
         }
     }
 }

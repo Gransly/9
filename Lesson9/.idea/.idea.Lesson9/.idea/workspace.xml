@@ -14,14 +14,16 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerControls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/HUD.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HealthControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerDie.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Script/PlayerDie.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/HUD.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerControls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerDie.cs" />
+        <option value="$PROJECT_DIR$/Assets/HealthControl.cs" />
       </list>
     </option>
   </component>
@@ -79,7 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1574936110593</updated>
       <workItem from="1574936113945" duration="665000" />
-      <workItem from="1575197740036" duration="3287000" />
+      <workItem from="1575197740036" duration="3470000" />
+      <workItem from="1575246359816" duration="1951000" />
     </task>
     <servers />
   </component>
