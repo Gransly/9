@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,12 +8,17 @@ public class EnemyScript : MonoBehaviour
     public Transform player;
     public float move_speed;
     public float rotation_speed;
-    public Transform enemy;
+    private Transform enemy;
 
     public float enemyLookDistance;
     public float attackDistance;
     private float fpsTargetDistance;
-    
+
+    private void Awake()
+    {
+        enemy = GetComponent<Transform>();
+    }
+
     void FixedUpdate()
     {
         fpsTargetDistance = Vector3.Distance(player.position, transform.position);

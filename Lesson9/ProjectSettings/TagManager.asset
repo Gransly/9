@@ -7,6 +7,8 @@ TagManager:
   - EnemyCollider
   - Enemy
   - Canvas
+  - CPM
+  - End
   layers:
   - Default
   - TransparentFX

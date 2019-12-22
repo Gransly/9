@@ -6,77 +6,57 @@ using UnityEngine.SceneManagement;
 
 public class PlayerDie : MonoBehaviour
 {
-//    private void Update()
-//    {
-//        if (HealthControl.health == 0)
-//        {
-//            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-//        }
-//    }
-//
-//    private void OnTriggerEnter(Collider other)
-//    {
-//        if (other.CompareTag("Enemy"))
-//        {
-//            StartCoroutine(Damage());
-//        }
-//
-//        if (other.gameObject == null)
-//        {
-//            StopAllCoroutines();
-//        }
-//    }
-//
-//    private void OnTriggerExit(Collider other)
-//    {
-//        if (other.CompareTag("Enemy"))
-//        {
-//            StopAllCoroutines();
-//        }
-//    }
-//    
-//
-//    IEnumerator Damage()
-//    {
-//        while (HealthControl.health > 0)
-//        {
-//            HealthControl.health--;
-//            yield return new WaitForSeconds(2.0f);
-//        }
-//    }
 
-        private Renderer rend;
-        private Color c;
         private bool isInvincible =  true;
-
-        private void Start()
-        {
-                rend = GetComponent<Renderer>();
-                c = rend.material.color;
+        private CheckPointMaster check;
+        
+        private Rigidbody playerRb;
+        private Transform playerTrans;
+        
+        private void Awake()
+        { 
+                playerTrans = GetComponent<Transform>();
+                playerRb = GetComponent<Rigidbody>();
         }
 
         private void OnTriggerStay(Collider other)
         {
-                if (other.CompareTag("Enemy")&& HealthControl.health > 0 &&  isInvincible)
-                {
+                if (other.CompareTag("Enemy") && HealthControl.health > 0 &&  isInvincible)
+                { 
+                        Debug.Log("EnemyHit");
                         isInvincible = false;
                         HealthControl.health--;
                         StartCoroutine(GetInvulnerable());
-                }      
+                }
+                
+                if (other.CompareTag("Enemy") && HealthControl.health == 0 )
+                { 
+                        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                }
+                
         }
-//        private void OnCollisionEnter(Collision other)
-//        {
-//                if (other.collider.CompareTag("Enemy")&& HealthControl.health > 0)
-//                {
-//                        HealthControl.health--;
-//                        StartCoroutine(GetInvulnerable());
-//                }
-//        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+                if (other.CompareTag("End")) 
+                { 
+                        check = GameObject.FindGameObjectWithTag("CPM").GetComponent<CheckPointMaster>(); 
+                        HealthControl.health--;
+                        Debug.Log("EndHit");
+                        playerRb.velocity = Vector3.zero;
+                        playerTrans.position = check.lastCheckpointPose;
+                }
+
+                if (other.CompareTag("End")  && HealthControl.health <= 0 ) // TODO Если враг добивет, то сцена не перезагружается
+                {
+                        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                }
+        }
 
         IEnumerator GetInvulnerable()
-        {
-            yield return    new WaitForSeconds(3f);
-            isInvincible = true;
+        { 
+                yield return    new WaitForSeconds(3f);
+                isInvincible = true;
         }
 
         

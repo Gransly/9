@@ -13,12 +13,20 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerControls.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/HUD.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/PlleyerPos.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CameraControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/HealthControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/TeleportPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/EnemyScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/EnemyDie.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerDie.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/DisapearAfterTouch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/CheckPointMaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/HUD.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/CheckPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/HealthControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Elevator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/DisapearingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/ElevateObjects.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -27,6 +35,15 @@
         <option value="$PROJECT_DIR$/Assets/Script/PlayerControls.cs" />
         <option value="$PROJECT_DIR$/Assets/HealthControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/CameraControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/DisapearingPlatform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/DisapearAfterTouch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Elevator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/ElevateObjects.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/TeleportPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/CheckPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlleyerPos.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/CheckPointMaster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/EnemyScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerDie.cs" />
       </list>
     </option>
@@ -66,10 +83,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="15404">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="15404" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -89,6 +106,7 @@
       <workItem from="1575246359816" duration="4299000" />
       <workItem from="1575515514805" duration="4555000" />
       <workItem from="1576661672787" duration="3679000" />
+      <workItem from="1576982532064" duration="4962000" />
     </task>
     <servers />
   </component>
