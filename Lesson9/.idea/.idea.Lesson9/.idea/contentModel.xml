@@ -21,6 +21,7 @@
           <e p="PlayerControls.cs" t="Include" />
           <e p="PlayerDie.cs" t="Include" />
           <e p="PlleyerPos.cs" t="Include" />
+          <e p="SwitchOffOn.cs" t="Include" />
           <e p="TeleportPlayer.cs" t="Include" />
         </e>
       </e>

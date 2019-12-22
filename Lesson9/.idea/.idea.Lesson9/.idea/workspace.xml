@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlleyerPos.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CameraControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/TeleportPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/SwitchOffOn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/EnemyScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/EnemyDie.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerDie.cs" root0="FORCE_HIGHLIGHTING" />
@@ -45,6 +46,7 @@
         <option value="$PROJECT_DIR$/Assets/Script/CheckPointMaster.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EnemyScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerDie.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/SwitchOffOn.cs" />
       </list>
     </option>
   </component>
@@ -106,7 +108,7 @@
       <workItem from="1575246359816" duration="4299000" />
       <workItem from="1575515514805" duration="4555000" />
       <workItem from="1576661672787" duration="3679000" />
-      <workItem from="1576982532064" duration="4962000" />
+      <workItem from="1576982532064" duration="6257000" />
     </task>
     <servers />
   </component>
