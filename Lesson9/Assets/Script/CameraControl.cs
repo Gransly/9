@@ -13,8 +13,6 @@ public class CameraControl : MonoBehaviour
     private float distance = 10.0f;
     private float currentX = 0.0f;
     private float currentY = 0.0f;
-    private float sensivityX = 4.0f;
-    private float sensivityY = 4.0f;
 
     private const float Y_Angle_Min = 0.0f;
     private const float Y_Angle_Max = 50.0f;
