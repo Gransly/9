@@ -8,15 +8,16 @@ public class DisapearingPlatform : MonoBehaviour
     public float disapearingTime;
     public float showTime;
     
-    private Collider platformCollider;
-    private MeshRenderer platformMesh;
+    private MeshCollider platformCollider;
+   private MeshRenderer platformMesh;
+
     private void Awake()
     {
-        platformCollider =GetComponent<Collider>();
-        platformMesh =GetComponent<MeshRenderer>();
+       platformCollider = GetComponent<MeshCollider>();
+       platformMesh = GetComponent<MeshRenderer>();
     }
-    
-    void OnCollisionEnter(Collision coll)
+
+    void OnTriggerEnter(Collision coll)
         {
             if (coll.collider.CompareTag("Player"))
             {
@@ -24,6 +25,8 @@ public class DisapearingPlatform : MonoBehaviour
                 StartCoroutine(Show());
             }
         }
+    
+    
 
         IEnumerator Hide()
         {

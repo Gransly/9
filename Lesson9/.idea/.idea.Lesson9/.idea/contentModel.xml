@@ -10,12 +10,14 @@
           <e p="CameraControl.cs" t="Include" />
           <e p="CheckPoint.cs" t="Include" />
           <e p="CheckPointMaster.cs" t="Include" />
+          <e p="DestroyPlatorm.cs" t="Include" />
           <e p="DisapearAfterTouch.cs" t="Include" />
           <e p="DisapearingPlatform.cs" t="Include" />
           <e p="ElevateObjects.cs" t="Include" />
           <e p="Elevator.cs" t="Include" />
           <e p="EnemyDie.cs" t="Include" />
           <e p="EnemyScript.cs" t="Include" />
+          <e p="Fan.cs" t="Include" />
           <e p="HealthControl.cs" t="Include" />
           <e p="HUD.cs" t="Include" />
           <e p="PlayerControls.cs" t="Include" />
@@ -23,6 +25,7 @@
           <e p="PlleyerPos.cs" t="Include" />
           <e p="SwitchOffOn.cs" t="Include" />
           <e p="TeleportPlayer.cs" t="Include" />
+          <e p="TurnOn.cs" t="Include" />
         </e>
       </e>
       <e p="Lesson9.sln" t="IncludeFlat" />

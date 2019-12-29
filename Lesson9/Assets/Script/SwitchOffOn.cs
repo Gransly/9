@@ -6,21 +6,18 @@ using UnityEngine;
 public class SwitchOffOn : MonoBehaviour
 {
     public BoxCollider colliderToOff;
-
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && !colliderToOff.enabled)  //TODO одновременно включается и отключается
+        if (other.CompareTag("Player") && !colliderToOff.enabled) 
         {
-            Debug.Log("on");
             colliderToOff.enabled = true;
         }
-        
-        if (other.CompareTag("Player") && colliderToOff.enabled)
+        else
         {
-            Debug.Log("off");
-            colliderToOff.enabled = false;
+            if (other.CompareTag("Player") && colliderToOff.enabled)
+            {
+                colliderToOff.enabled = false;
+            }
         }
-        
-        
     }
 }
