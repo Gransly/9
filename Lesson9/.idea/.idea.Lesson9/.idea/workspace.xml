@@ -46,13 +46,13 @@
         <option value="$PROJECT_DIR$/Assets/Script/PlleyerPos.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/CheckPointMaster.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/EnemyScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/PlayerDie.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/DisapearingPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/DestroyPlatorm.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Elevator.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Fan.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/SwitchOffOn.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/TurnOn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerDie.cs" />
       </list>
     </option>
   </component>
@@ -117,6 +117,7 @@
       <workItem from="1576982532064" duration="7009000" />
       <workItem from="1577261443384" duration="2402000" />
       <workItem from="1577536119961" duration="2024000" />
+      <workItem from="1577591614374" duration="379000" />
     </task>
     <servers />
   </component>
