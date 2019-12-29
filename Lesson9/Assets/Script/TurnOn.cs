@@ -10,7 +10,7 @@ public class TurnOn : MonoBehaviour
 
     private void Awake()
     {
-        particl.Stop();
+        //particl.Stop();
     }
 
     private void OnTriggerEnter(Collider other)

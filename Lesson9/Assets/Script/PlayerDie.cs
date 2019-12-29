@@ -46,11 +46,7 @@ public class PlayerDie : MonoBehaviour
                         playerRb.velocity = Vector3.zero;
                         playerTrans.position = check.lastCheckpointPose;
                 }
-
-                if (other.CompareTag("End")  && HealthControl.health <= 0 ) // TODO Если враг добивет, то сцена не перезагружается
-                {
-                        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-                }
+                
         }
 
         IEnumerator GetInvulnerable()
