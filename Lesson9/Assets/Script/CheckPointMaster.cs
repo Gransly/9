@@ -8,16 +8,5 @@ public class CheckPointMaster : MonoBehaviour
     private static CheckPointMaster instance;
     public Vector3 lastCheckpointPose;
     public Vector3 firstChecpointPose;
-//    private void Awake()
-//    {
-//        if (instance == null)
-//        {
-//            instance = this;
-//            DontDestroyOnLoad(instance);
-//        }
-//        else
-//        {
-//            Destroy(gameObject);
-//        }
-//    }
 }
+

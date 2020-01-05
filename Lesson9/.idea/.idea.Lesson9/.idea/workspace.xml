@@ -13,46 +13,58 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerControls.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/PlleyerPos.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CameraControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/TeleportPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/SwitchOffOn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/EnemyScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/TurnOn.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/EnemyDie.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerDie.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/DisapearAfterTouch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CheckPointMaster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Fan.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/HUD.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CheckPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/HealthControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Elevator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/DisapearingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/TextBoss.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Finish.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/PlleyerPos.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/TurnOn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/NewLvl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/EnemyDie.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/DisapearAfterTouch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Elevator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/ElevateObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/BossDie.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/DestroyPlatorm.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Script/HUD.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/PlayerControls.cs" />
         <option value="$PROJECT_DIR$/Assets/HealthControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/CameraControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/DisapearAfterTouch.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ElevateObjects.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/TeleportPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/CheckPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlleyerPos.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/CheckPointMaster.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/EnemyScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/DisapearingPlatform.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/DestroyPlatorm.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Elevator.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Fan.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/SwitchOffOn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/ChargeEnemyScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/BossDie.cs" />
+        <option value="$PROJECT_DIR$/Assets/FinishApear.cs" />
+        <option value="$PROJECT_DIR$/Assets/TextBoss.cs" />
+        <option value="$PROJECT_DIR$/Assets/Finish.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/EnemyScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/CameraControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/TurnOn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/DestroyPlatorm.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/BossDie.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/CheckPointMaster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/EnemyDie.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerDie.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/TeleportPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerControls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/NewLvl.cs" />
       </list>
     </option>
   </component>
@@ -117,7 +129,9 @@
       <workItem from="1576982532064" duration="7009000" />
       <workItem from="1577261443384" duration="2402000" />
       <workItem from="1577536119961" duration="2024000" />
-      <workItem from="1577591614374" duration="379000" />
+      <workItem from="1577591614374" duration="989000" />
+      <workItem from="1578060743504" duration="3554000" />
+      <workItem from="1578106996442" duration="4277000" />
     </task>
     <servers />
   </component>

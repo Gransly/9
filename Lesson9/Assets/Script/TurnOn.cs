@@ -8,17 +8,15 @@ public class TurnOn : MonoBehaviour
     public BoxCollider colliderToOff;
     public ParticleSystem particl;
 
-    private void Awake()
-    {
-        //particl.Stop();
-    }
+
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && !colliderToOff.enabled)
+        if (other.CompareTag("Player") )
         {
             particl.Play();
             colliderToOff.enabled = true;
+            Destroy(gameObject);
         }
     }
 }

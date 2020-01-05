@@ -2,18 +2,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Object = UnityEngine.Object;
 
-public class DestroyPlatorm : MonoBehaviour
+public class Finish : MonoBehaviour
 {
+    public GameObject uiText;
 
-    public Object destroyObj;
+    private void Awake()
+    {
+        uiText.SetActive(false);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            Destroy(destroyObj);
+            uiText.SetActive(true);
             Destroy(gameObject);
         }
     }
+
+    
+        
+    
 }

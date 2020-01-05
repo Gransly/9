@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CameraControl : MonoBehaviour
 {
-    public Transform lookAt;
+    private Transform lookAt;
     private Transform camTransform;
 
     private Camera cam;
@@ -19,6 +19,7 @@ public class CameraControl : MonoBehaviour
     
     private void Start()
     {
+        lookAt = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         camTransform = transform;
         cam = Camera.main;
         

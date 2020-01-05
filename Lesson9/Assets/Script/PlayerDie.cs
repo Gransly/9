@@ -9,7 +9,6 @@ public class PlayerDie : MonoBehaviour
 
         private bool isInvincible =  true;
         private CheckPointMaster check;
-        
         private Rigidbody playerRb;
         private Transform playerTrans;
         
@@ -22,8 +21,7 @@ public class PlayerDie : MonoBehaviour
         private void OnTriggerStay(Collider other)
         {
                 if (other.CompareTag("Enemy") && HealthControl.health > 0 &&  isInvincible)
-                { 
-                        Debug.Log("EnemyHit");
+                {
                         isInvincible = false;
                         HealthControl.health--;
                         StartCoroutine(GetInvulnerable());
@@ -42,9 +40,13 @@ public class PlayerDie : MonoBehaviour
                 { 
                         check = GameObject.FindGameObjectWithTag("CPM").GetComponent<CheckPointMaster>(); 
                         HealthControl.health--;
-                        Debug.Log("EndHit");
                         playerRb.velocity = Vector3.zero;
                         playerTrans.position = check.lastCheckpointPose;
+                }
+
+                if (other.CompareTag("End") && HealthControl.health == 0 )
+                {
+                      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);  
                 }
                 
         }

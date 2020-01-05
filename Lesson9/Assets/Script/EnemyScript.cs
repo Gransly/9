@@ -4,8 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
-{
-    public Transform player;
+{ 
+    private Transform player;
     public float move_speed;
     public float rotation_speed;
     private Transform enemy;
@@ -16,6 +16,7 @@ public class EnemyScript : MonoBehaviour
 
     private void Awake()
     {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         enemy = GetComponent<Transform>();
     }
 
